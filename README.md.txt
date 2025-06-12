@@ -3,7 +3,6 @@
 Sistema simples de cadastro de clientes feito com **Python**, rodando no terminal. Os dados são armazenados localmente em um arquivo `.json`.
 
 ---
-
 ## Funcionalidades
 
 - ✅ Cadastrar clientes  
@@ -15,29 +14,25 @@ Sistema simples de cadastro de clientes feito com **Python**, rodando no termina
 - 🧪 Testes automatizados com `unittest`
 
 ---
-
 ## 💻 Como executar
 
 ```bash
 # Clone o repositório
 git clone https://github.com/julianordn/cadastro-clientes.git
 
-# Acesse a pasta
+# Acesse a pasta do projeto
 cd cadastro-clientes
 
 # Execute o sistema
 python cadastro_clientes.py
-🖼️ Exemplo de uso no terminal
-Adicione o print do seu terminal com o nome screenshot-terminal.png na pasta principal do projeto.
 
-markdown
-Copiar
-Editar
+---
+## 🖼️ Exemplo de uso no terminal
 ![Print do terminal](screenshot-terminal.png)
-📁 Estrutura do projeto
-bash
-Copiar
-Editar
+
+---
+## 📁 Estrutura do projeto
+
 cadastro-clientes/
 ├── cadastro_clientes.py       # Execução principal
 ├── cliente.py                 # CRUD dos clientes
@@ -47,32 +42,35 @@ cadastro-clientes/
 ├── tests/
 │   └── test_utils.py          # Testes com unittest
 └── README.md                  # Documentação do projeto
-🛠️ Tecnologias utilizadas
-Python 3.x
 
-Módulo json – salvar e carregar dados
+---
+## 🛠️ Tecnologias utilizadas
 
-Módulo os – limpar terminal (opcional)
+- Python 3.x  
+- Módulo `json` — para salvar e carregar dados  
+- Módulo `os` — para limpar o terminal (opcional)  
+- Módulo `unittest` — para testes automatizados  
 
-Módulo unittest – testes automatizados
+---
+## 📚 Próximos passos (ideias de evolução)
 
-📚 Próximos passos (ideias de evolução)
-🧼 Adicionar validações robustas com regex (e-mail, telefone)
+- 🧼 Adicionar validações robustas com regex (e-mail, telefone)  
+- 🖼️ Criar interface gráfica com Tkinter  
+- 🌐 Criar versão web com Flask ou FastAPI  
+- ✅ Ampliar cobertura de testes com unittest ou pytest  
 
-🖼️ Criar interface gráfica com Tkinter
+---
+## 📌 Autor
 
-🌐 Criar versão web com Flask ou FastAPI
+Juliano Nascimento  
+🔗 GitHub: [@julianordn](https://github.com/julianordn)
 
-✅ Ampliar cobertura de testes com unittest ou pytest
+---
 
-📌 Autor
-Juliano Nascimento
-🔗 GitHub: @julianordn
+## 🧠 Nota final
 
-🧠 Nota final
-Este projeto faz parte do meu aprendizado como desenvolvedor júnior.
+Este projeto faz parte do meu aprendizado como desenvolvedor júnior.  
 Estou sempre aberto a feedbacks, sugestões e colaborações!
-
 
 
 
